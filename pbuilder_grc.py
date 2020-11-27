@@ -19,6 +19,8 @@ from pathlib import Path
 
 stanza.download('grc')
 
+st.set_page_config(page_title=None, page_icon=None, layout='wide', initial_sidebar_state='collapsed')
+
 st.title("Diogenet's Greek Pattern Builder")
 
 
